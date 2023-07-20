@@ -38,7 +38,7 @@
       </div>
       <div class="page2_text_div">
         <h1 class="page2_text">
-          Диагностика ходовой части
+          Диагностика ходовой части 
         </h1>
       </div>
     </div>
