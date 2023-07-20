@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+}
+p{
+    size:7;
+    color: #ffffff;
+}
+.page1{
+    background-color:#e9621f;
+}
+h1.txt{
+    font-size: 30;
+}
+body {
+    background:#e9621f;
+}
+
+h1.zagolovok {
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.zagolovok:hover {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                    0 3px 0 #ccc, 0 4px 0 #ccc,
+                    0 5px 0 #ccc, 0 6px 0 #ccc,
+                    0 7px 0 #ccc, 0 8px 0 #ccc,
+                    0 9px 0 #ccc, 0 10px 0 #ccc,
+                    0 11px 0 #ccc, 0 12px 0 #ccc,
+                    0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.tvoy {
+    width: 50%;
+    margin-left: 30px;
+}
+.what{
+    width: 50%;
+    font-size: 600%;
+    font-size: 5em;
+    color: #ffffff;
+    font-family: "arial black";
+    font-weight: bold;
+    text-align: left;
+
+}
+.button1{
+    position: relativ;
+    color: #e9621f;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 40%;
+    height: 40px;
+    text-decoration: none;
+    user-select: none;
+    padding: .10em 5em;
+    outline: none;
+    background-color: white;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+  } 
+.picture{
+    width: 50%;
+}
+img.car{
+    width: 90%;   
+}
+.page2{
+    background: #033;
+    width: 100%;
+    margin-right: 20px;
+}
+.page2_tittle{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page2_img  {
+    width: 50%;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.page2_img_div{
+    width: 50%;    
+}
+.paage2_text_div{
+    width: 50%;
+    text-align: center;
+}
+.img2{
+    text-align: center;
+}
+.paage2_text{
+    text-align: center;
+}
+.div{
+    width: 100%;
+}
