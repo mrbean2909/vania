@@ -91,16 +91,15 @@ img.car{
 .page2_img_div{
     width: 50%;    
 }
-.paage2_text_div{
-    width: 50%;
-    text-align: center;
-}
 .img2{
     text-align: center;
 }
-.paage2_text{
+.page2_text{
     text-align: center;
 }
-.div{
-    width: 100%;
+.page2_h1{
+    width: 50%;
+}
+.h1.page2{
+    width: 50;
 }
