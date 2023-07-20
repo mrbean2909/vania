@@ -39,6 +39,7 @@
       <div class="page2_text_div">
         <h1 class="page2_text">
           Диагностика ходовой части 
+          hello
         </h1>
       </div>
     </div>
