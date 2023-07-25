@@ -27,16 +27,20 @@
     </div>
   </div>
   <div class="page2">
-    <div class="page2_tittle">
-      <h1>комплексная проверка автомобиля</h1>
-    </div>
-      <div class="page2_img_div">
-        <p class="img2">
-          <img class="page2_img" src="img/2.jpg">
-        </p>
+      <div class="page2_tittle">
+        <h1>комплексная проверка автомобиля</h1>
+      </div>
+      <div clas="page2_">
+        <div class="page2_img_div">
+          <p class="img2">
+            <img class="page2_img" src="img/2.jpg">
+          </p>
       </div>
       <div class="h1.page2">
-        <h1>Диагностика</h1>
+        <p>
+          lkjbgd
+        </p>
+      </div>
       </div>
   </div>
 </body>

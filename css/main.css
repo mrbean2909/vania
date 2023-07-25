@@ -75,8 +75,6 @@ img.car{
 }
 .page2{
     background: #033;
-    width: 100%;
-    margin-right: 20px;
 }
 .page2_tittle{
     color: white;
@@ -84,22 +82,15 @@ img.car{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .page2_img  {
-    width: 50%;
     margin-left: 100px;
     border-radius: 10px;
 }
 .page2_img_div{
     width: 50%;    
 }
-.img2{
-    text-align: center;
-}
-.page2_text{
-    text-align: center;
-}
-.page2_h1{
-    width: 50%;
+.page2_obj{
+    width: 100%;
 }
 .h1.page2{
-    width: 50;
+    width: 50%;
 }
