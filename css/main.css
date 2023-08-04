@@ -94,3 +94,42 @@ img.car{
 .h1.page2{
     width: 50%;
 }
+.form_page3{
+    width: 50%; 
+    margin-right: 50px;  
+}
+.form{
+    margin-right: 50px;
+}
+.gorod{
+    width:70%;
+    height: 30pt;
+}
+.tel{
+    width:70%;
+    height: 30pt;   
+}
+.name{
+    width:70%;
+    height: 30pt; 
+}
+.fam{
+    width:70%;
+    height: 30pt; 
+}
+.em{
+    width:70%;
+    height: 70px; 
+}
+.marka{
+    width:70%;
+    height: 30pt; 
+}
+.time{
+    width:70%;
+    height: 30pt;
+}
+.date{
+    width:70%;
+    height: 30pt;
+}
