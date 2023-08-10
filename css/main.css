@@ -1,22 +1,27 @@
+.www{
+    border: none !important;
+}
 h1{
     text-align: center;
 }
 p{
     size:7;
-    color: #ffffff;
+    color:#ffffff;
 }
 .page1{
     background-color:#e9621f;
+    border: none !important;
 }
 h1.txt{
     font-size: 30;
 }
-body {
+.page1{
     background:#e9621f;
+    border: none !important;
 }
 
 h1.zagolovok {
-    margin: 10px auto;
+    margin: 10px;
     text-align: center;
     color: white;
     font-size: 5em;
@@ -72,9 +77,10 @@ h1.zagolovok:hover {
 }
 img.car{
     width: 90%;   
-}
+} 
 .page2{
     background: #033;
+    border: none !important;
 }
 .page2_tittle{
     color: white;
@@ -90,46 +96,44 @@ img.car{
 }
 .page2_obj{
     width: 100%;
+    border: none !important;
 }
 .h1.page2{
     width: 50%;
 }
 .form_page3{
-    width: 50%; 
-    margin-right: 50px;  
-}
+    width: 100%;
+    display: flex;
+    padding: 0 0 20px 0;
+} 
 .form{
-    margin-right: 50px;
+    text-align: center;
+    width: 50%;
+    color: #43424281;
 }
-.gorod{
-    width:70%;
-    height: 30pt;
+.map{
+    width: 50%;
+    align-content: center;
 }
-.tel{
-    width:70%;
-    height: 30pt;   
+.field{
+    width: 70%;
+    height: 30px;
 }
-.name{
-    width:70%;
-    height: 30pt; 
+.but{
+    margin-top: 10px;
+    background-color: #4e4a49;
+    color: #ffffff;
+    height: 50px;
+    width: 71%;
 }
-.fam{
-    width:70%;
-    height: 30pt; 
+.map{
+    width: 50%;
+    text-align: center;
 }
-.em{
-    width:70%;
-    height: 70px; 
-}
-.marka{
-    width:70%;
-    height: 30pt; 
-}
-.time{
-    width:70%;
-    height: 30pt;
-}
-.date{
-    width:70%;
-    height: 30pt;
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #12151c;
+    color:#62656d ;
 }
