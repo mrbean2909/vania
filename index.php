@@ -61,18 +61,28 @@
         
         <label for="dog-names">Выбор марки:</label><br>
         <select class="field marka" name="cars" id="cars">
-        <option value="car">Лада</option>
-        <option value="car">шкода</option>
-        <option value="car">рено</option>
-        <option value="car">гелик</option>
-        <option value="car">датсун</option>
-        <option value="car">тайота</option>
-        <option value="car">шурале</option>
-        <option value="car">форт</option>
+        <option >Лада</option>
+        <option >шкода</option>
+        <option >рено</option>
+        <option >гелик</option>
+        <option >датсун</option>
+        <option >тайота</option>
+        <option >шурале</option>
+        <option >форт</option>
       </select>
       <br>
-        <label for="fname">Марка:</label><br>
-        <input class="field name" type="text" id="mark" name="mark" placeholder="выберете модель вашего автомобиля"><br>
+      <label for="dog-names">Выбор модели:</label><br>
+      <select class="field model" name="model" id="modcars">
+        <option >Alero</option>
+        <option >Astra</option>
+        <option >Astro</option>
+        <option >Avalanche</option>
+        <option >Aveo</option>
+        <option >Beretta</option>
+        <option >Chevette</option>
+        <option >Classic</option>
+        <select>
+          <br>
         <label for="fname">Имя:</label><br>
         <input class="field name" type="text" id="name" name="name" placeholder="введите имя"><br>
         <label for="lname">Фамилия:</label><br>
@@ -87,10 +97,19 @@
       src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A08a84b9bfc13c14eae691f931dff5ef1f72b7be2516e0aa08cfbc847b66fa941&amp;width=620&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script></h1>
   </div>
   </div>
-  <footer class="footer">
-    <h1>telegram</h1>
-  </footer>
-  </div>
 </body>
-
+<footer>
+  <div class="footer-content">
+    <h3>Contact us</h3>
+    <ul class="socials">
+      <li><a href="#"><i class="facebook"></i></a></li>
+      <li><a href="#"><i class="twitter"></i></a></li>
+      <li><a href="#"><i class="telegram"></i></a></li>
+      <li><a href="#"><i class="whatsapp"></i></a></li>
+      <li><a href="#"><i class="vk"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom"></div>
+    <p>copyright &copy;ptoihsdpgkh<span>oihgw</span></p>
+</footer>
 </html>

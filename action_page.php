@@ -11,7 +11,9 @@ $time = $_POST['time'];
 $tel = $_POST['tel'];
 $email = $_POST['email'];
 $mark = $_POST['cars'];
-// $model = $_POST['model'];
+$model = $_POST['model'];
+
+echo $model;
 
 $servername = "localhost";
   
@@ -32,5 +34,5 @@ if ($conn->connect_error) {
 }else{
     echo"успех";
 }
-
-$sql = mysqli_query($conn, "INSERT INTO `zapis` (`name`, `datetime`, `tel`, `mark`, `email`) VALUES ('{$name}', '2008-10-23 10:37:22', '{$tel}', '{$mark}', '{$email}')");
+// $sql = mysqli_query($conn, "INSERT INTO `zapis` (`name`, `datetime`, `mark`, `tel`, `email`, `model`) VALUES (`{$name}`, `2008-10-23 10:37:22`, `{$mark}`, `{$tel}`, `{$email}`, `{$model}`)");
+$sql = mysqli_query($conn, "INSERT INTO zapis (name, datetime, mark, tel, email, model) VALUES ('$name', '2008-10-23 10:37:22','$mark','$tel', '$email', '$model')");
