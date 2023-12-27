@@ -54,8 +54,8 @@
             <option value="dave">Череповец</option>
           </select>
           <br>
-          <label><input class="field time" type="time" name="time"></label><br> 
           <label for="fname">Время:</label><br>
+          <label><input class="field time" type="time" name="time"></label><br> 
         <label for="fname">Дата:</label><br>
         <label><input class="field date" type="date" id="datepicker" name="date"></label><br>
         
@@ -97,19 +97,21 @@
       src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A08a84b9bfc13c14eae691f931dff5ef1f72b7be2516e0aa08cfbc847b66fa941&amp;width=620&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script></h1>
   </div>
   </div>
+  
 </body>
+
 <footer>
   <div class="footer-content">
     <h3>Contact us</h3>
-    <ul class="socials">
-      <li><a href="#"><i class="facebook"></i></a></li>
-      <li><a href="#"><i class="twitter"></i></a></li>
-      <li><a href="#"><i class="telegram"></i></a></li>
-      <li><a href="#"><i class="whatsapp"></i></a></li>
-      <li><a href="#"><i class="vk"></i></a></li>
+    <p class="socials-p"><ul class="socials"><p>
+      <li><a href="#"><i class="fa fa-facebook"></i></a><img class="soc fa" src="img\facebook.png"></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a><img class="soc tw"src="img/Twitter-icon.png"></li>
+      <li><a href="#"><i class="fa fa-telegram"></i></a><img class="soc te"src="img\telegram.jpg"></li>
+      <li><a href="#"><i class="fa fa-whatsapp"></i></a><img class="soc wh"src="img\what.jpg"></li>
+      <li><a href="#"><i class="fa fa-vk"></i></a><img class="soc vk"src="img/vk.jpg"></li>
     </ul>
   </div>
   <div class="footer-bottom"></div>
-    <p>copyright &copy;ptoihsdpgkh<span>oihgw</span></p>
+    <h4 class="h4" >copyright &copy;ptoihsdpgkh<span>oihgw</span></h4>
 </footer>
 </html>

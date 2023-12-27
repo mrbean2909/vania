@@ -136,9 +136,18 @@ img.car{
     width: 50%;
     text-align: center;
 }
-.footer{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #fcfcfc;
+}
+footer{
     background: #111;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -162,10 +171,11 @@ img.car{
     line-height: 3rem;
 }
 .footer-content p{
-    max-width: 500;
+    max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+    text-align: center;
 }
 .socials{
     list-style: none;
@@ -183,11 +193,11 @@ img.car{
     color: #ffffff;
 }
 .socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
+    font-size: 1.1rem; 
 }
 .socials a:hover i{
     color: aqua;
+    transition: color .4s ease;
 }
 .footer-bottom{
     background: #000;
@@ -199,9 +209,18 @@ img.car{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    text-align: center;
 }
 .footer-bottom span{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+    text-align: center;
+}
+.h4{
+    margin-left: 1250px;
+}
+.soc{
+    width: 25px;
+    
 }

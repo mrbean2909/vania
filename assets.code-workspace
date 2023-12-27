@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "assets"
+		},
+		{
+			"name": "img",
+			"path": "img"
+		},
+		{
+			"name": "js",
+			"path": "js"
+		},
+		{
+			"name": "SQL",
+			"path": "SQL"
+		},
+		{
+			"name": "css",
+			"path": "css"
+		}
+	]
+}
